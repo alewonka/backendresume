@@ -17,6 +17,7 @@ const allowedOrigins = [
     "http://localhost:5173",  // Development
     "http://localhost:3000",  // Alternative development port
     "https://backendresume-production-e613.up.railway.app",  // Production backend
+    "https://wonkresume.netlify.app",
     process.env.ALLOWED_SITE,  // From environment variable
     // Add your frontend domain here when deployed
 ].filter(Boolean); // Remove undefined values
