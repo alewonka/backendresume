@@ -13,8 +13,8 @@ RUN npm install
 # Now copy the rest of the application files
 COPY . .
 
-# Expose port
-EXPOSE 5001
+# Expose port (Railway will provide the PORT env var)
+EXPOSE $PORT
 
 # Start the server
 CMD ["node", "src/index.js"]
