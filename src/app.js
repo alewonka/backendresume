@@ -15,7 +15,7 @@ app.use(cookieParser());
 const corsOptions = {
     origin: [
         "http://localhost:5173",  // Development
-        "https://api.wonkaagent.site"  // Production
+        "https://backendresume-production-e613.up.railway.app"  // Production
     ],
     credentials: true,
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
